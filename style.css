@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../img/ronaldo.jpg');
+    background-size: cover;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 60px;
+}
+
+.title{
+    text-transform: uppercase;
+    margin: 500px auto 0 auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    background: url('../img/fir-burn.jpg');
+    -webkit-background-clip: text;
+    background-size: contain;
+    animation: fire 15s linear infinite;
+}
+
+@keyframes fire{
+0%{
+    background-position: left 0 top 25px;
+}
+50%{
+    background-position: left 130px top -35px;
+}
+100%{
+    background-position: left 250px top 0;
+}
+}
